@@ -1,5 +1,7 @@
 #include <stdio.h>
-/* printf
+/* *
+ * main - entry point
+ * Return: 0 Success
  */
 
 int main(void)
