@@ -10,11 +10,11 @@ int n_repe;
 char alp;
 
 for (n_repe = '0'; n_repe <= '9'; n_repe++)
-{	
+{
 for (alp  = 'a'; alp <= 'z'; alp++)
 {
 _putchar(alp);
-}	
-_putchar('\n');	
+}
+_putchar('\n');
 }
 }
