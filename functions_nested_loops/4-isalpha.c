@@ -12,12 +12,12 @@ char ref;
 char REF;
 for (ref = 'a'; ref <= 'z'; ref++)
 {
-if (c  == ref)
+if (c == ref)
 return (1);
 }
 for (REF = 'A'; REF <= 'Z'; REF++)
 {
-if (c == ref)
+if (c == REF)
 return (1);
 }
 return (0);
