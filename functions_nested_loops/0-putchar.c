@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _putchar - print characte.
- *
+ * main - print _putchar.
+ * Return: 0
  * Description: print a character one by one in, takes ASCII reference.
  */
 
