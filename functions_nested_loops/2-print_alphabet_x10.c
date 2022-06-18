@@ -2,15 +2,15 @@
 #include "main.h"
 
 /**
- * print_alphabet - print fron a to z in lowercase
+ * print_alphabet_x10 - print fron a to z in lowercase 10 times
  *
  * Return: 0
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-	char alphabet;
-
+	int alphabet, time
+	for ()
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
 		_putchar(alphabet);
