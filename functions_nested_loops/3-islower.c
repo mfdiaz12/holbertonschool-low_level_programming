@@ -10,12 +10,9 @@
 
 int _islower(int c)
 {
-	int print;
-
-	for (print = 'a'; print <= 'z'; print++)
+	for (c = 97; c <= 122; c++)
 	{
-		if (print == c)
-			return (1);
+		return (1);
 	}
 	return (0);
 }
