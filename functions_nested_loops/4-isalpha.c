@@ -2,26 +2,24 @@
 #include "main.h"
 
 /**
- * _islower - Returns 1 if c is lowercase or upercase
+ * _isalpha - Returns 1 if c is lowercase and upercase
  * @c: The character to print 1
  *
  * Return: 1
 */
 
-int _islower(int c)
+int _isalpha(int c)
 {
-	char print;
-	char PRINT;
-
-	for (print = 'a'; print <= 'z'; print++)
+	if ((c >= 65) && (c <= 122))
 	{
-		if (print == c)
-			return (1);
+		return (1);
 	}
-	for (PRINT = 'A'; PRINT <= 'Z'; PRINT++)
+	else if ((c >= 91) && (c <= 97))
 	{
-		if (PRINT == c)
-			return (1);
+		return (0);
 	}
-	return (0);
+	else
+	{
+		return (0);
+	}
 }
